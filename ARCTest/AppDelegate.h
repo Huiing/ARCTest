@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-//我是王五
+//我是王五 wangwu
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
