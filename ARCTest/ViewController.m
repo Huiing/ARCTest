@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "Person.h"
 
 @interface ViewController ()
 
@@ -16,6 +17,10 @@
 
 - (void)viewDidLoad {
   [super viewDidLoad];
+  Person *p = [[Person alloc] init];
+  Person *p2 = [[Person alloc] init];
+  p2 = p;
+  NSLog(@"retainCount:%lu",(unsigned long)[p retainCount]);
   // Do any additional setup after loading the view, typically from a nib.
 }
 

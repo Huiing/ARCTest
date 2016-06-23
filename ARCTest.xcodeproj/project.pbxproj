@@ -14,6 +14,7 @@
 		DC2D05B41BEA663700762516 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC2D05B31BEA663700762516 /* Images.xcassets */; };
 		DC2D05B71BEA663700762516 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC2D05B51BEA663700762516 /* LaunchScreen.xib */; };
 		DC2D05C31BEA663700762516 /* ARCTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DC2D05C21BEA663700762516 /* ARCTestTests.m */; };
+		DC2D05CE1BEA665C00762516 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = DC2D05CD1BEA665C00762516 /* Person.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		DC2D05BC1BEA663700762516 /* ARCTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ARCTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC2D05C11BEA663700762516 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DC2D05C21BEA663700762516 /* ARCTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ARCTestTests.m; sourceTree = "<group>"; };
+		DC2D05CC1BEA665C00762516 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		DC2D05CD1BEA665C00762516 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +88,8 @@
 				DC2D05AB1BEA663700762516 /* AppDelegate.m */,
 				DC2D05AD1BEA663700762516 /* ViewController.h */,
 				DC2D05AE1BEA663700762516 /* ViewController.m */,
+				DC2D05CC1BEA665C00762516 /* Person.h */,
+				DC2D05CD1BEA665C00762516 /* Person.m */,
 				DC2D05B01BEA663700762516 /* Main.storyboard */,
 				DC2D05B31BEA663700762516 /* Images.xcassets */,
 				DC2D05B51BEA663700762516 /* LaunchScreen.xib */,
@@ -221,6 +226,7 @@
 			files = (
 				DC2D05AF1BEA663700762516 /* ViewController.m in Sources */,
 				DC2D05AC1BEA663700762516 /* AppDelegate.m in Sources */,
+				DC2D05CE1BEA665C00762516 /* Person.m in Sources */,
 				DC2D05A91BEA663700762516 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -349,6 +355,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = NO;
 				INFOPLIST_FILE = ARCTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -359,6 +366,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = NO;
 				INFOPLIST_FILE = ARCTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
